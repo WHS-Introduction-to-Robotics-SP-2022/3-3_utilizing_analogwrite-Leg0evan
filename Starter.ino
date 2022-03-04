@@ -1,23 +1,33 @@
-// Create variables for the pins
-int redLED = 11;
-int greenLED = 10;
-int blueLED = 9;
+/*
 
-void setup(){
-  // Initialize pins as output devices
-  pinMode (redLED, );
-  pinMode (greenLED, );
-  pinMode (blueLED, );
+*/
+int pin1=11;
+int pin2=10;
+int pin3=9;
+
+void setup() {
+    pinMode(pin1, OUTPUT);
+    pinMode(pin2, OUTPUT);
+    pinMode(pin3, OUTPUT);
 }
 
-void loop(){
-  // Red LED cycle
-  analogWrite (redLED, );     // full power
-  analogWrite (redLED, 100);  // 40% power
-  analogWrite (redLED, );     // no power
-
-  // Green LED cycle
-  
-  // Blue LED cycle
-
+void loop() {
+    analogWrite(pin1, 255);
+    delay(1000);
+    analogWrite(pin1, 102);
+    delay(1000);
+    analogWrite(pin1, 0);
+    delay(1000);
+    analogWrite(pin2, 255);
+    delay(1000);
+    analogWrite(pin2, 102);
+    delay(1000);
+    analogWrite(pin2, 0);
+    delay(1000);
+    analogWrite(pin3, 255);
+    delay(1000);
+    analogWrite(pin3, 102);
+    delay(1000);
+    analogWrite(pin3, 0);
+    delay(1000)
 }
